@@ -12,7 +12,7 @@ class MyHandler(BaseHTTPRequestHandler):
     self.end_headers()
     # Send the html message
     output = 'v1 - This is Adrian'
-          self.wfile.write(output.encode('utf-8'))
+    self.wfile.write(output.encode('utf-8'))
   return
 
   try:
