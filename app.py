@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-from http.server import BaseHTTPRequestHandler, HTTPServer
+from http.server import BaseHTTPRequestHandler
 
 PORT_NUMBER = 8080
 
